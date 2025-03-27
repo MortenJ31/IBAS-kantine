@@ -4,15 +4,25 @@
     ViewData["Title"] = "Home page";
 }
 
-<style>    table, th, td {
+<style>    
+    table, th, td {
         border: 1px solid black;
+    }
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    th,td {
+        padding: 10px;
+        width: 200px;
     }
     </style>
 
 <div class="text-center">
     <h1 class="display-4">Kantinens Menu for uge 15</h1>
+    <br />
 
-    <table>
+    <table class="center">
         <tr>
             <th>Dag</th>
             <th>Varm Ret</th>
